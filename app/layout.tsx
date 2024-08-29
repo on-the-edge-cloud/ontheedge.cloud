@@ -1,3 +1,4 @@
+import AppFooter from "./components/AppFooter";
 import AppHeader from "./components/AppHeader";
 import "./main.css";
 
@@ -18,7 +19,7 @@ export default function RootLayout({
 		<body className="bg-white dark:bg-gray-900">
 			<AppHeader />
 			{children}
-			{/* <AppFooter /> */}
+			<AppFooter />
 		</body>
 	</html>
   );

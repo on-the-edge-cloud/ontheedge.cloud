@@ -1,14 +1,20 @@
-import Link from "next/link";
+import Blog from "./components/Blog";
+import CallToAction from "./components/CallToAction";
+import Features from "./components/Features";
+import HeroSection from "./components/HeroSection";
+import Stats from "./components/Stats";
+import Testimonials from "./components/Testimonials";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>Hello World! This is the Home page</p>
-      <p>
-        Visit the <Link href="/about">About</Link> page.
-      </p>
-    </div>
+		<main className="space-y-40 mb-40">
+			<HeroSection />
+			<Features />
+			<Stats />
+			<Testimonials />
+			<CallToAction />
+			<Blog />
+		</main>
   );
 };
 

@@ -35,7 +35,6 @@ const AppHeader = () => {
   }, []);
 
   const onLinksClick : MouseEventHandler<HTMLLIElement> = useCallback((e) => {
-    e.preventDefault();
     setIsToggled(prev => !prev);
   }, []);
 
