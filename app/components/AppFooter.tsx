@@ -8,7 +8,7 @@ const AppFooter = () => {
         <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
           <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
             <div className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
-              <ul className="list-inside list-disc space-y-8">
+              {/* <ul className="list-inside list-disc space-y-8">
                 <li>
                   <a href="#" className="transition hover:text-primary">
                     Home
@@ -40,7 +40,7 @@ const AppFooter = () => {
                     Terms of Use
                   </a>
                 </li>
-              </ul>
+              </ul> */}
 
               <ul role="list" className="space-y-8">
                 <li>
@@ -59,7 +59,18 @@ const AppFooter = () => {
                     <span>Github</span>
                   </a>
                 </li>
-                <li>
+								<li>
+	                  <a
+	                    href="https://www.linkedin.com/company/on-the-edge-it-solutions"
+	                    className="flex items-center space-x-3 transition hover:text-primary"
+	                  >
+	                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="w-5" viewBox="0 0 50 50" fill="currentColor">
+											    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+											</svg>
+	                    <span>Linkedin</span>
+	                  </a>
+	                </li>
+                {/* <li>
                   <a
                     href="#"
                     className="flex items-center space-x-3 transition hover:text-primary"
@@ -172,19 +183,19 @@ const AppFooter = () => {
                     </svg>
                     <span>Instagram</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
-              <span className="block text-gray-500 dark:text-gray-400">
+              {/* <span className="block text-gray-500 dark:text-gray-400">
                 We change the way UI components librairies are used
-              </span>
+              </span> */}
 
               <span className="block text-gray-500 dark:text-gray-400">
-                Tailus Blocks &copy; <span id="year"></span>
+                On the Edge IT Solutions S.L. &copy; <span id="year"></span>
               </span>
 
-              <span className="flex justify-between text-gray-600 dark:text-white">
+              {/* <span className="flex justify-between text-gray-600 dark:text-white">
                 <a href="#" className="font-medium">
                   Terms of Use{" "}
                 </a>
@@ -192,12 +203,12 @@ const AppFooter = () => {
                   {" "}
                   Privacy Policy
                 </a>
-              </span>
+              </span> */}
 
               <span className="block text-gray-500 dark:text-gray-400">
                 Need help?{" "}
                 <a
-                  href="#"
+                  href="mailto:tnovau@ontheedge.cloud"
                   className="font-semibold text-gray-600 dark:text-white"
                 >
                   {" "}

@@ -12,7 +12,7 @@ export default function RootLayout({
 		<head>
 			<meta charSet="UTF-8" />
 			<meta name="viewport" content="width=device-width" />
-			<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+			<link rel="icon" type="favicon" href="/images/favicon.ico" />
 			<meta name="description" content="On The Edge IT Solutions website." />
 			<title>On The Edge | IT Solutions</title>
 		</head>
