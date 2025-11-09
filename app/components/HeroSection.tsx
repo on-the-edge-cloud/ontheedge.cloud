@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="relative pt-36 ml-auto">
           <div className="lg:w-2/3 text-center mx-auto">
             <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
-              Developing solutions for the future of the web.
+              Developing solutions for the future of the web. (and beyond)
             </h1>
             <p className="mt-8 text-gray-700 dark:text-gray-300">
               We're a company focused on provide solutions for complex software problems.<br />
