@@ -1,0 +1,19 @@
+name: Preview environment
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    uses: on-the-edge-cloud/github-actions-nextjs/.github/workflows/nextjs-preview.yml@v1.18
+    with:
+      config-path: "nextjs-app.yml"
+      command: ${{ github.event.action == 'closed' && 'destroy' || 'deploy' }}
+    secrets: inherit
