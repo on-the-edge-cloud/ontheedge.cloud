@@ -1,0 +1,3 @@
+app:
+  aws-region: "eu-north-1"
+  deployment-type: "static"
